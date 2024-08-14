@@ -1,12 +1,41 @@
+/* Estilos básicos para la aplicación */
+body {
+    font-family: Arial, sans-serif;
+}
 
-/* 
+h1 {
+    color: #333;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
 
-*/
+button {
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+li button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+li button:hover {
+    background-color: darkred;
+}
